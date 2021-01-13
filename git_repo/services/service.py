@@ -632,7 +632,7 @@ class RepositoryService:
         raise NotImplementedError
 
 '''
-register all services by importing their modules, from the ext pagckage
+register all services by importing their modules, from the ext package
 
 they are registered using the `register_target()` decorator, and added
 to the `RepositorService.service_map` dictionary, and is accessed by the
